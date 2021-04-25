@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  
+}
+
+body{
+  direction: rtl;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+table.dataTable thead:nth-child(1) {
+  display: none;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btnClass{
+  text-align: right;
+  margin:40px;
+}
+
+.mdb-datatable-filter{
+  text-align: left;
+}
+
+.dataTable{
+  text-align: right;
+
+}
+.col-sm-12{
+  text-align: right;
+}
+
+.dataTables_wrapper{
+  margin-top: 50px;
+}
+.dataTables_length{
+  display: none;
+}
+.textCenter{
+  text-align: center;
+}
+.modal-content{
+  background-image: linear-gradient(to right, #ABB2B9, white)  !important;
+  border-radius: 20px !important;
+}
+
+.modal-header{
+  background-image: linear-gradient(to right, #ABB2B9, white);
+  border-radius: 20px !important;
+
+}
+
+.linear{
+  background-image: linear-gradient(to right, #1F618D, #A9CCE3);
+  color: black !important;
+}
+.submit{
+  background-image: linear-gradient(to right, #52BE80, #ABEBC6) !important;
+  color: black !important;
+}
+
+.CBtn{
+  background-image: linear-gradient(to right, #F5B041,white ) !important;
+  color: black !important;
+}
+
+.margin{
+  margin-right: 10px;
+}
